@@ -1,8 +1,8 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_RMX2173.mk
+    $(LOCAL_DIR)/lineage_RMX2173.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_RMX2173-user \
-    aosp_RMX2173-userdebug \
-    aosp_RMX2173-eng
+    lineage_RMX2173-user \
+    lineage_RMX2173-userdebug \
+    lineage_RMX2173-eng
 
