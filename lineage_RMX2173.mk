@@ -3,7 +3,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Inherit from RMX1831 device
 $(call inherit-product, device/realme/RMX2173/device.mk)
@@ -11,7 +11,7 @@ $(call inherit-product, device/realme/RMX2173/device.mk)
 PRODUCT_BRAND := realme
 PRODUCT_DEVICE := RMX2173
 PRODUCT_MANUFACTURER := realme
-PRODUCT_NAME := aosp_RMX2173
+PRODUCT_NAME := lineage_RMX2173
 PRODUCT_MODEL := Realme Q2 Pro
 TARGET_GAPPS_ARCH=arm64
 PRODUCT_GMS_CLIENTID_BASE := android-realme
